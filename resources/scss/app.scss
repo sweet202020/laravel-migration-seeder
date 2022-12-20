@@ -1,1 +1,19 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background-color: cornflowerblue;
+}
+
+main {
+    background-color: rgb(88, 88, 233);
+}
+
+header {
+    a {
+        background-color: white;
+        padding: 1rem;
+        color: black;
+        text-decoration: none;
+        margin: 0.5rem;
+    }
+}
