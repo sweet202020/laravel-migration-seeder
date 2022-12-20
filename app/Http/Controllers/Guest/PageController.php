@@ -13,6 +13,8 @@ class PageController extends Controller
     }
     public function trains()
     {
-        return view('trains');
+        $trains = Train::all();
+        dd($trains);
+        return view('trains', compact('trains'));
     }
 }
